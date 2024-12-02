@@ -1,0 +1,41 @@
+# Node.js dependencies
+node_modules/
+package-lock.json
+
+# Build artifacts
+static/css/output.css
+docs/
+
+# Temporary files
+*.tmp
+*.log
+*.swp
+
+# Go build artifacts
+tmp/
+*.exe
+*.out
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# IDE files
+.idea/
+.vscode/
+*.iml
+
+# Tailwind generated files
+.tailwindcss/
+
+# Vite files
+dist/
+
+# Air runtime files
+.air/
+
+# Test coverage reports
+coverage/
+
+# Browsersync runtime files
+.browsersync/

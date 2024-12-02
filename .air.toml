@@ -1,0 +1,17 @@
+[build]
+cmd = "go build -o ./tmp/main.exe ./cmd"
+bin = "./tmp/main.exe"
+full_bin = "./tmp/main.exe"
+watch_dir = "."
+exclude_dir = ["node_modules", "static"]
+extensions = ["go", "html"]
+
+[log]
+level = "debug"
+
+[watch]
+extensions = ["go", "html", "css", "js"]
+full_reload = true
+
+[misc]
+clean_on_exit = true
