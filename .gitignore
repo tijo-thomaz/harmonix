@@ -4,7 +4,6 @@ package-lock.json
 
 # Build artifacts
 static/css/output.css
-docs/
 
 # Temporary files
 *.tmp
